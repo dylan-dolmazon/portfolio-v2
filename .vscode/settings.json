@@ -1,0 +1,12 @@
+{
+    "tailwindCSS.includeLanguages": {
+      "vue": "html"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["class\\s*=\\s*['\"]([^'\"]*)['\"]", 1]
+    ]
+  }
+  
