@@ -7,6 +7,14 @@
     },
     "tailwindCSS.experimental.classRegex": [
       ["class\\s*=\\s*['\"]([^'\"]*)['\"]", 1]
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[vue]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
   }
   
